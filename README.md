@@ -44,6 +44,4 @@ npm run dev
 
 More features will be added as I continue learning React.
 
----
 
-Developed by [Azli08](https://github.com/azli08)
