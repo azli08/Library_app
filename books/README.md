@@ -1,47 +1,44 @@
 # 📚 Library App
 
-A simple library application developed while learning **React**.
+A small reading-list app built with React while learning the fundamentals of React and Vite. You can view, add, edit, and delete books.
 
-This is the **first part** of the project and focuses on practicing the basics of React and building a project with Vite.
+## Technologies
 
-## 🛠️ Technologies
+- React
+- JavaScript
+- Vite
+- JSON Server
+- CSS
 
-* React
-* JavaScript
-* Vite
-* HTML
-* CSS
+## Getting started
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
+Clone the repository and enter the app folder:
 
 ```bash
-git clone https://github.com/azli08/Library_app.git
+git clone https://github.com/azli08/react-ep6.git
+cd react-ep6/books
 ```
 
-### 2. Navigate to the project folder
-
-```bash
-cd Library_app/books
-```
-
-### 3. Install dependencies
+Install the dependencies:
 
 ```bash
 npm install
 ```
 
-### 4. Run the project
+Start the local API in one terminal:
 
 ```bash
-npm run dev
+npm run server
 ```
 
-## 📌 Project Status
+Start the Vite app in a second terminal:
 
-**Part 1 – In Development**
+```bash
+npm run start
+```
 
-More features will be added as I continue learning React.
+The app uses JSON Server at `http://localhost:3001` for its book data.
 
+## Project status
 
+**In development** — this is a learning project, and more features may be added over time.
